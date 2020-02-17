@@ -1,0 +1,35 @@
+digraph Tree {
+0 [label="Inflow <= 0.0087\nmse = 7.32839036021e-06\nsamples = 148", shape="box"] ;
+1 [label="Outflow(1month) <= 0.0036\nmse = 2.57975340025e-06\nsamples = 133", shape="box"] ;
+0 -> 1 ;
+2 [label="Spring <= 0.5000\nmse = 1.34505531358e-06\nsamples = 68", shape="box"] ;
+1 -> 2 ;
+3 [label="Outflow(2month) <= 0.0019\nmse = 5.21828008421e-07\nsamples = 52", shape="box"] ;
+2 -> 3 ;
+4 [label="mse = 0.0000\nsamples = 12\nOutflow = [ 0.0013644]", shape="box"] ;
+3 -> 4 ;
+5 [label="mse = 0.0000\nsamples = 40\nOutflow = [ 0.00219815]", shape="box"] ;
+3 -> 5 ;
+6 [label="Inflow(2month) <= 0.0049\nmse = 1.7015093056e-06\nsamples = 16", shape="box"] ;
+2 -> 6 ;
+7 [label="mse = 0.0000\nsamples = 10\nOutflow = [ 0.00306144]", shape="box"] ;
+6 -> 7 ;
+8 [label="mse = 0.0000\nsamples = 6\nOutflow = [ 0.00489009]", shape="box"] ;
+6 -> 8 ;
+9 [label="Inflow <= 0.0068\nmse = 1.83762534314e-06\nsamples = 65", shape="box"] ;
+1 -> 9 ;
+10 [label="Inflow(2month) <= 0.0022\nmse = 1.26170273138e-06\nsamples = 58", shape="box"] ;
+9 -> 10 ;
+11 [label="mse = 0.0000\nsamples = 17\nOutflow = [ 0.00335678]", shape="box"] ;
+10 -> 11 ;
+12 [label="mse = 0.0000\nsamples = 41\nOutflow = [ 0.00450048]", shape="box"] ;
+10 -> 12 ;
+13 [label="mse = 0.0000\nsamples = 7\nOutflow = [ 0.00643752]", shape="box"] ;
+9 -> 13 ;
+14 [label="Inflow(1month) <= 0.0054\nmse = 1.00988164592e-05\nsamples = 15", shape="box"] ;
+0 -> 14 ;
+15 [label="mse = 0.0000\nsamples = 6\nOutflow = [ 0.00760436]", shape="box"] ;
+14 -> 15 ;
+16 [label="mse = 0.0000\nsamples = 9\nOutflow = [ 0.01160735]", shape="box"] ;
+14 -> 16 ;
+}

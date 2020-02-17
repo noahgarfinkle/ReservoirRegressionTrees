@@ -1,0 +1,15 @@
+digraph Tree {
+0 [label="Storage <= 0.6507\nmse = 2.94801083587e-06\nsamples = 47", shape="box"] ;
+1 [label="Winter <= 0.5000\nmse = 6.91382392155e-07\nsamples = 42", shape="box"] ;
+0 -> 1 ;
+2 [label="Storage <= 0.6404\nmse = 2.44473691939e-07\nsamples = 36", shape="box"] ;
+1 -> 2 ;
+3 [label="mse = 0.0000\nsamples = 31\nOutflow = [ 0.00062067]", shape="box"] ;
+2 -> 3 ;
+4 [label="mse = 0.0000\nsamples = 5\nOutflow = [ 0.0015887]", shape="box"] ;
+2 -> 4 ;
+5 [label="mse = 0.0000\nsamples = 6\nOutflow = [ 0.00254854]", shape="box"] ;
+1 -> 5 ;
+6 [label="mse = 0.0000\nsamples = 5\nOutflow = [ 0.00563064]", shape="box"] ;
+0 -> 6 ;
+}

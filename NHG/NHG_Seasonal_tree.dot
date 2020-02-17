@@ -1,0 +1,27 @@
+digraph Tree {
+0 [label="Inflow <= 0.0038\nmse = 3.17236916017e-06\nsamples = 48", shape="box"] ;
+1 [label="Storage <= 0.5235\nmse = 3.01441870903e-07\nsamples = 38", shape="box"] ;
+0 -> 1 ;
+2 [label="Inflow <= 0.0002\nmse = 1.46066157885e-07\nsamples = 18", shape="box"] ;
+1 -> 2 ;
+3 [label="mse = 0.0000\nsamples = 6\nOutflow = [ 0.00110319]", shape="box"] ;
+2 -> 3 ;
+4 [label="mse = 0.0000\nsamples = 12\nOutflow = [ 0.00035295]", shape="box"] ;
+2 -> 4 ;
+5 [label="Storage <= 0.5895\nmse = 1.79946985045e-07\nsamples = 20", shape="box"] ;
+1 -> 5 ;
+6 [label="mse = 0.0000\nsamples = 8\nOutflow = [ 0.00109693]", shape="box"] ;
+5 -> 6 ;
+7 [label="Inflow <= 0.0006\nmse = 1.69184262269e-07\nsamples = 12", shape="box"] ;
+5 -> 7 ;
+8 [label="mse = 0.0000\nsamples = 5\nOutflow = [ 0.00168087]", shape="box"] ;
+7 -> 8 ;
+9 [label="mse = 0.0000\nsamples = 7\nOutflow = [ 0.00139087]", shape="box"] ;
+7 -> 9 ;
+10 [label="Inflow <= 0.0061\nmse = 3.05427743108e-06\nsamples = 10", shape="box"] ;
+0 -> 10 ;
+11 [label="mse = 0.0000\nsamples = 5\nOutflow = [ 0.00412667]", shape="box"] ;
+10 -> 11 ;
+12 [label="mse = 0.0000\nsamples = 5\nOutflow = [ 0.00532572]", shape="box"] ;
+10 -> 12 ;
+}
